@@ -22,6 +22,76 @@
         <li><a href="tabelas.html">Tabelas</a></li>
       </ul>
     </nav>
-    <h3>Tebelas</h3>
+    <h3>tabela simples e organizada</h3>
+    <table>
+      <caption>
+        pessoas e suas idades
+      </caption>
+      <thead>
+        <tr>
+          <th>nome</th>
+          <th>idade</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Marcos</td>
+          <td>35 anos</td>
+        </tr>
+        <tr>
+          <td>Guilherme</td>
+          <td>18 anos</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>total</td>
+          <td>2 pessoas</td>
+        </tr>
+      </tfoot>
+    </table>
+    <h3>Tabela complexa</h3>
+    <p>
+      tabela etntre duas lojas comparando as vendas e produção de dois produtos
+    </p>
+    <table>
+      <caption>
+        comparação entre vedidos e produzidos
+      </caption>
+      <colgroup>
+        <col style="background-color:darkgreen;"></col>
+        <col span="2" style="background-color:rgb(110, 91, 54);" >
+        <col span="2" style="background-color:rgb(250, 212, 115)">
+      </colgroup>
+      <thead>
+        <tr>
+          <th rowspan="2"></th>
+          <th colspan="2" scope="colgroup">loja do ciro</th>
+          <th colspan="2" scope="colgroup">loja da carmen</th>
+        </tr>
+        <tr>
+          <th scope="col">produzidos</th>
+          <th scope="col">vendidos</th>
+          <th scope="col">produzidos</th>
+          <th scope="col">vendidos</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">vazos</th>
+          <td>68</td>
+          <td>61</td>
+          <td>79</td>
+          <td>66</td>
+        </tr>
+        <tr>
+          <th scope="row">xícaras</th>
+          <td>100</td>
+          <td>64</td>
+          <td>80</td>
+          <td>72</td>
+        </tr>
+      </tbody>
+    </table>
   </body>
 </html>
