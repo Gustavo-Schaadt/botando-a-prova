@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Gustavo Schaadt" />
+    <meta name="description" content="ainda a se decidir" />
+    <meta nema="robots" content="index, follow" />
+    <link rel="icon" href="favicon-ovini.jpg" />
+    <title>Schaadt | Formulário</title>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="listas.html">Listas</a></li>
+        <li><a href="citações.html">Citações</a></li>
+        <li><a href="abreviações.html">Abreviações</a></li>
+        <li><a href="contatos.html">Contatos</a></li>
+        <li><a href="códigos-rpr.html">Representação de códigos</a></li>
+        <li><a href="tabelas.html">Tabelas</a></li>
+        <li><a href="formulário.html">formulário</a></li>
+      </ul>
+    </nav>
+    <form action="config-formulário.html" method="get">
+      <label for="e-mail">e-mail:</label>
+      <input type="email" name="e-mail" id="e-mail" />
+
+      <br />
+
+      <label for="senha">senha</label>
+      <input type="password" name="senha" id="senha" />
+
+      <br />
+
+      <label for="numero">Digite um número</label>
+      <input type="number" name="numero" id="numero" />
+
+      <br />
+
+      <label for="numero">idade</label>
+      <input type="number" name="numero" id="numero" min="1" max="122" />
+
+      <br />
+
+      <input type="checkbox" name="linguagens" id="linguagens" value="inglês" />
+      <label for="linguagens">inglês</label>
+
+      <br />
+
+      <input
+        type="checkbox"
+        name="linguagens"
+        id="linguagens"
+        value="português"
+      />
+      <label for="linguagens">português</label>
+
+      <br />
+
+      <input
+        type="checkbox"
+        name="linguagens"
+        id="linguagens"
+        value="espanhol"
+      />
+      <label for="linguagens">espanhol</label>
+
+      <br />
+
+      <input type="radio" name="gênero" id="gênero" value="masculino" />
+      <label for="gênero">masculino</label>
+
+      <br />
+
+      <input type="radio" name="gênero" id="gênero" value="feminino" />
+      <label for="gênero">feminino</label>
+
+      <br />
+
+      <button type="reset">reset</button>
+      <button type="submit">submit</button>
+    </form>
+    <footer>&copy;GustavoSchaadt</footer>
+  </body>
+</html>
