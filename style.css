@@ -1,11 +1,54 @@
 html,
+body,
+ul,
+li,
+p {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  font-size: 1.2rem;
+  color: white;
+}
+
 body {
   background-color: rgb(8, 8, 61);
-  color: white;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-/*home -------------------------------------*/
+a {
+  text-decoration: none;
+  color: rgb(8, 8, 61);
+}
+
+/*header ----------------------------------*/
+.header {
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  font-size: 2.5rem;
+  font-family: 'Mouse Memoirs', sans-serif;
+}
+
+/*menu ------------------------------------*/
+.menu {
+  display: flex;
+}
+
+.menu li {
+  margin-left: 5px;
+}
+
+.menu li a {
+  display: block;
+  padding: 5px;
+  font-size: 0.8rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*home ------------------------------------*/
 
 /*tables ----------------------------------*/
 #col1 {
