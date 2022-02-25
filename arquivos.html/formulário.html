@@ -32,66 +32,72 @@
         </ul>
       </nav>
     </header>
+    <section class="form">
+      <form action="config-formulário.html" method="get">
+        <label for="e-mail">e-mail:</label>
+        <input type="email" name="e-mail" id="e-mail" />
 
-    <form action="config-formulário.html" method="get">
-      <label for="e-mail">e-mail:</label>
-      <input type="email" name="e-mail" id="e-mail" />
+        <br />
 
-      <br />
+        <label for="senha">senha</label>
+        <input type="password" name="senha" id="senha" />
 
-      <label for="senha">senha</label>
-      <input type="password" name="senha" id="senha" />
+        <br />
 
-      <br />
+        <label for="numero">Digite um número</label>
+        <input type="number" name="numero" id="numero" />
 
-      <label for="numero">Digite um número</label>
-      <input type="number" name="numero" id="numero" />
+        <br />
 
-      <br />
+        <label for="numero">idade</label>
+        <input type="number" name="idade" id="idade" min="1" max="122" />
 
-      <label for="numero">idade</label>
-      <input type="number" name="idade" id="idade" min="1" max="122" />
+        <br />
 
-      <br />
+        <input
+          type="checkbox"
+          name="linguagens"
+          id="linguagens"
+          value="inglês"
+        />
+        <label for="linguagens">inglês</label>
 
-      <input type="checkbox" name="linguagens" id="linguagens" value="inglês" />
-      <label for="linguagens">inglês</label>
+        <br />
 
-      <br />
+        <input
+          type="checkbox"
+          name="linguagens"
+          id="linguagens"
+          value="português"
+        />
+        <label for="linguagens">português</label>
 
-      <input
-        type="checkbox"
-        name="linguagens"
-        id="linguagens"
-        value="português"
-      />
-      <label for="linguagens">português</label>
+        <br />
 
-      <br />
+        <input
+          type="checkbox"
+          name="linguagens"
+          id="linguagens"
+          value="espanhol"
+        />
+        <label for="linguagens">espanhol</label>
 
-      <input
-        type="checkbox"
-        name="linguagens"
-        id="linguagens"
-        value="espanhol"
-      />
-      <label for="linguagens">espanhol</label>
+        <br />
 
-      <br />
+        <input type="radio" name="gênero" id="gênero" value="masculino" />
+        <label for="gênero">masculino</label>
 
-      <input type="radio" name="gênero" id="gênero" value="masculino" />
-      <label for="gênero">masculino</label>
+        <br />
 
-      <br />
+        <input type="radio" name="gênero" id="gênero" value="feminino" />
+        <label for="gênero">feminino</label>
 
-      <input type="radio" name="gênero" id="gênero" value="feminino" />
-      <label for="gênero">feminino</label>
+        <br />
 
-      <br />
-
-      <button type="reset">reset</button>
-      <button type="submit">submit</button>
-    </form>
-    <footer>&copy;GustavoSchaadt</footer>
+        <button type="reset">reset</button>
+        <button type="submit">submit</button>
+      </form>
+    </section>
+    <footer class="footer">&copy;GustavoSchaadt 2022</footer>
   </body>
 </html>

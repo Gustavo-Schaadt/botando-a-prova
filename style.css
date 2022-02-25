@@ -20,6 +20,12 @@ a {
   color: rgb(8, 8, 61);
 }
 
+/*img da home -----------------------------*/
+
+.home-img {
+  padding: 25px;
+}
+
 /*header ----------------------------------*/
 .header {
   background-color: white;
@@ -32,7 +38,17 @@ a {
   font-family: 'Mouse Memoirs', sans-serif;
 }
 
+/*footer ----------------------------------*/
+
+.footer {
+  background-color: white;
+  color: rgb(8, 8, 61);
+  text-align: center;
+  padding: 1rem;
+}
+
 /*menu ------------------------------------*/
+
 .menu {
   display: flex;
 }
@@ -48,9 +64,49 @@ a {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-/*home ------------------------------------*/
+/*sections --------------------------------*/
+
+.home {
+  text-align: center;
+  padding: 100px;
+}
+
+.form {
+  margin-left: 650px;
+  padding: 100px;
+}
+
+.codigos {
+  padding: 80px;
+}
+
+.contact {
+  text-align: center;
+  padding: 100px;
+}
+
+.quoted {
+  text-align: left;
+  padding: 100px;
+}
+
+.abbr {
+  text-align: center;
+  padding: 100px;
+}
+
+.list {
+  text-align: center;
+  padding: 100px;
+}
 
 /*tables ----------------------------------*/
+
+.table {
+  text-align: center;
+  padding: 100px;
+}
+
 #col1 {
   background-color: darkslateblue;
 }
@@ -63,7 +119,19 @@ a {
   background-color: darkslateblue;
 }
 
+p,
+h3 {
+  margin: 10px;
+}
+
 thead,
 caption {
   background-color: cornflowerblue;
+}
+
+table,
+th,
+td {
+  border: 1px solid rgb(62, 43, 97);
+  padding: 10px;
 }
